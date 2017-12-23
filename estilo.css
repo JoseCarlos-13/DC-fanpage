@@ -1,0 +1,70 @@
+@charset"utf-8";
+
+/*formatação de texto*/
+h1 {
+	color: white;
+	text-shadow: 3px 2px 1px black;
+}
+
+a {
+	color: white;
+}
+
+p {
+	text-align: justify;
+	color: white;
+	text-shadow: 2px 1px 3px black;
+	text-indent: 5%;
+}
+
+/*formatação de corpo*/
+body {
+	background-color: darkblue;
+	background-image: url(universedc.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	color: white;
+}
+
+div#interface {
+	width: 1060px;
+	margin: -25px auto 0px auto;
+	box-shadow: 2px 1px 3px black;
+	background-color: rgba(4, 25, 77, 0.9);
+	padding: 6px;
+}
+
+/*formatação de imagem*/
+
+figure.foto-heroi img {
+	border: 8px solid white;
+	display: inline-block;
+	box-shadow: 2px 1px 3px black;
+	width: 30%;
+	height: 25%;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+}
+
+/*formatação de menu*/
+
+nav#menu li {
+	color: white;
+	top: 10px;
+	right: 10px;
+	position: relative;
+	box-shadow: 3px 2px 4px black;
+	display: block;
+	border: 1px dotted blue;
+	border-width: 2px;
+	padding: 10px;
+	width: 130px;
+	background-color: rgba(0, 25, 126, 0.6);
+}
+
+nav#menu li:hover {
+
+}
