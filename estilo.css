@@ -29,7 +29,7 @@ body {
 }
 
 div#interface {
-	width: 1110px;
+	width: 1060px;
 	margin: -25px auto 0px auto;
 	box-shadow: 2px 1px 3px black;
 	background-color: rgba(4, 25, 77, 0.9);
@@ -44,8 +44,7 @@ figure.foto-heroi img {
 	box-shadow: 2px 1px 3px black;
 	width: 30%;
 	height: 25%;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin: 16px;
 	text-align: center;
 }
 
