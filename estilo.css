@@ -34,9 +34,23 @@ div#interface {
 	box-shadow: 2px 1px 3px black;
 	background-color: rgba(4, 25, 77, 0.9);
 	padding: 6px;
+	background-image: url(dccomic.jpg);
+	background-repeat: repeat;
+	background-position: center;
+
 }
 
 /*formatação de imagem*/
+
+figure.peq img {
+	border: 6px solid white;
+	display: inline-block;
+	box-shadow: 2px 1px 3px black;
+	width: 15%;
+	height: 10%;
+	margin: 10px;
+	
+}
 
 figure.foto-heroi img {
 	border: 8px solid white;
@@ -45,8 +59,9 @@ figure.foto-heroi img {
 	width: 30%;
 	height: 25%;
 	margin: 16px;
-	text-align: center;
 }
+
+
 
 /*formatação de menu*/
 
@@ -64,3 +79,19 @@ nav#menu li {
 	background-color: rgba(0, 25, 126, 0.6);
 }
 
+.heroisimg {
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+    align-items: center
+
+}
+
+.legenda{
+	text-align: center;
+}
+
+.herois{
+	height: 180px;
+	border: 8px solid white;
+}
