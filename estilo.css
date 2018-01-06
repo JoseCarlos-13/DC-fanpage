@@ -76,6 +76,14 @@ figcaption.esquerda {
 	text-align: left;
 }
 
+figure.foto-galeria img {
+	border: 8px solid white;
+	display: inline-block;
+	box-shadow: 2px 1px 3px black;
+	width: 45%;
+	height: 25%;
+	margin: 16px;
+}
 
 
 /*formatação de menu*/
@@ -106,7 +114,7 @@ figcaption.legenda{
 	text-align: center;
 }
 
-img.herois{
+img.herois {
 	height: 180px;
 	border: 8px solid white;
 }
