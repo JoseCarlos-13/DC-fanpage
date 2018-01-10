@@ -105,6 +105,21 @@ nav#menu-site li {
 	padding: 10px;
 	width: 130px;
 	background-color: rgba(0, 25, 126, 0.6);
+	transition: background-color 1s;
+	text-decoration: none;
+}
+
+nav#menu-site li:hover {
+	background-color: lightblue;
+}
+
+nav#menu-site a {
+	transition: color;
+	text-decoration: none;
+}
+
+nav#menu-site a:hover {
+	color: black;
 }
 
 nav#menu li {
@@ -119,6 +134,21 @@ nav#menu li {
 	padding: 10px;
 	width: 130px;
 	background-color: rgba(0, 25, 126, 0.6);
+	transition: background-color 1s;
+	text-decoration: none;
+}
+
+nav#menu li:hover {
+	background-color: lightblue;
+}
+
+nav#menu a {
+	transition: color;
+	text-decoration: none;
+}
+
+nav#menu a:hover {
+	color: black;
 }
 
 div.heroisimg {
