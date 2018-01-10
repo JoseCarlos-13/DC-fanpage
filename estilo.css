@@ -40,7 +40,7 @@ div#interface {
 	margin: -15px auto 0px auto;
 	box-shadow: 2px 1px 3px black;
 	background-color: rgba(4, 25, 77, 0.9);
-	padding: 6px;
+	padding: 25px;
 	background-image: url(dccomic.jpg);
 	background-position: center;
 
@@ -95,7 +95,7 @@ figure.foto-galeria img {
 
 nav#menu-site li {
 	color: white;
-	top: 10px;
+	top: -5px;
 	right: 10px;
 	position: relative;
 	box-shadow: 3px 2px 4px black;
