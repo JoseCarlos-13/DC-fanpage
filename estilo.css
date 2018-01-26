@@ -1,19 +1,24 @@
 @charset"utf-8";
 @font-face {
 	font-family: arial;
-	src: url('komika/comicbook.ttf');
+	src: url('comicbook.ttf');
 }
 
 /*formatação de texto*/
 h1 {
-	color: white;
 	text-shadow: 3px 2px 1px black;
 	font-size: 300%;
 	font-family: arial;
 }
 
+h3 {
+	text-shadow: 3px 2px 1px black;
+	font-family: arial;
+}
+
 a {
 	color: white;
+	font-family: arial;
 }
 
 p {
