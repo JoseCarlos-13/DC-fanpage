@@ -32,8 +32,7 @@ p {
 
 
 body {
-	background-color: darkblue;
-	background-image: url(universedc.jpg);
+	background-color: rgb(0, 0, 0);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -52,9 +51,18 @@ div#interface {
 
 }
 
+.main-image{
+	width: 1282px;
+	height: 667px;
+	right: 8px;
+  z-index: -1;
+	position: relative;
+	margin-top: -220px;
+}
+
 figure.logo {
-	top: 15px;
-	right: 100px;
+	top: 30px;
+	right: 80px;
 	position: absolute;
 }
 
@@ -101,7 +109,7 @@ figure.foto-galeria img {
 
 nav#menu-site li {
 	color: white;
-	top: 4px;
+	top: 25px;
 	right: 10px;
 	position: relative;
 	box-shadow: 3px 2px 4px black;
@@ -157,7 +165,7 @@ nav#menu a:hover {
 	color: black;
 }
 
-div.heroisimg {
+div.herois-img {
 	display: flex;
 	flex-direction: row;
     justify-content: center;
@@ -178,5 +186,5 @@ img.herois {
 	background-image: url('dccabeçalho2.jpg');
 	background-position: center;
 	border-bottom: 4px red double;
-	height: 200px;
+	height: 150px;
 }
