@@ -5,7 +5,8 @@
 }
 
 body {
-    background-image: url('./universedc.jpg');
+  background-image: url('./imagens/pagina-principal/universedc.jpg');
+  background-repeat: no-repeat;
 }
 
 /* ESTILIZAÇÃO DE TEXTO */
