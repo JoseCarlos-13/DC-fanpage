@@ -1,4 +1,4 @@
-let heroesList = document.querySelector('.herois-img')
+let heroesList = document.querySelector('.herois-img');
 let heroesArray = [
   {
     name: 'Superman',
