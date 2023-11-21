@@ -11,9 +11,16 @@ h1 {
 	font-family: arial;
 }
 
+h2 {
+	text-shadow: 3px 2px 1px black;
+	font-family: arial;
+	font-size: 20px;
+}
+
 h3 {
 	text-shadow: 3px 2px 1px black;
 	font-family: arial;
+	font-size: 20px;
 }
 
 a {
@@ -26,6 +33,11 @@ p {
 	color: white;
 	text-shadow: 2px 1px 3px black;
 	text-indent: 5%;
+	font-size: 18px;
+}
+
+ul {
+	font-size: 18px;
 }
 
 /*formatação de corpo*/
