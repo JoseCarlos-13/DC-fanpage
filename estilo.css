@@ -62,11 +62,16 @@ div#interface {
 	margin-top: -220px;
 }
 
-figure.logo {
+/* figure.logo {
 	top: 30px;
-	right: 80px;
+	right: 350px;
 	position: absolute;
-}
+} */
+
+/* figure.logo > a > img {
+	width: 400px;
+	height: 150px;
+} */
 
 /*formatação de imagem*/
 
@@ -147,6 +152,8 @@ img.vilao {
 }
 
 #cabeçalho {
+  display: flex;
+  flex-direction: row;
 	background-image: url('dccabeçalho2.jpg');
 	background-position: center;
 	border-bottom: 4px red double;
@@ -155,7 +162,7 @@ img.vilao {
 
 /*formatação de menu*/
 
-nav#menu-site li {
+nav#menu-site > .menu-list > li {
 	color: white;
 	top: 25px;
 	right: 10px;
@@ -165,50 +172,22 @@ nav#menu-site li {
 	border: 1px dotted blue;
 	border-width: 2px;
 	padding: 10px;
-	width: 130px;
+	width: 110px;
 	background-color: rgba(0, 25, 126, 1.0);
 	transition: background-color 1s;
 	text-decoration: none;
+  margin: 0px 2px 0px 2px;
 }
 
-nav#menu-site li:hover {
+nav#menu-site > .menu-list > li:hover {
 	background-color: lightblue;
 }
 
-nav#menu-site a {
+nav#menu-site > .menu-list > li > a {
 	transition: color;
 	text-decoration: none;
 }
 
-nav#menu-site a:hover {
-	color: black;
-}
-
-nav#menu li {
-	color: white;
-	top: 10px;
-	right: 10px;
-	position: relative;
-	box-shadow: 3px 2px 4px black;
-	display: block;
-	border: 1px dotted blue;
-	border-width: 2px;
-	padding: 10px;
-	width: 130px;
-	background-color: rgba(0, 25, 126, 0.6);
-	transition: background-color 1s;
-	text-decoration: none;
-}
-
-nav#menu li:hover {
-	background-color: lightblue;
-}
-
-nav#menu a {
-	transition: color;
-	text-decoration: none;
-}
-
-nav#menu a:hover {
+nav#menu-site > .menu-list > li > a:hover {
 	color: black;
 }
