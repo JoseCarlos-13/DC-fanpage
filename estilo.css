@@ -167,12 +167,10 @@ nav#menu a:hover {
 	color: black;
 }
 
-div.herois-img {
+ul.herois-img {
+	list-style: none;
 	display: flex;
 	flex-direction: row;
-    justify-content: center;
-    align-items: center
-
 }
 
 figcaption.legenda{
