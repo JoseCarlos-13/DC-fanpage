@@ -97,15 +97,61 @@ figcaption.esquerda {
 	text-align: left;
 }
 
-figure.foto-galeria img {
-	border: 8px solid white;
-	display: inline-block;
+figure.foto-galeria {
+  border: 8px solid white;
 	box-shadow: 2px 1px 3px black;
-	width: 45%;
-	height: 25%;
-	margin: 16px;
+  max-width: 100%;
 }
 
+figure.foto-galeria img {
+	display: inline-block;
+	width: 100%;
+}
+
+ul.fotos-galeria{
+	display: grid;
+  list-style: none;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  gap: 20px;
+}
+
+ul.herois-img {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+ul.viloes-img {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+figcaption.legenda{
+	text-align: center;
+}
+
+img.heroi {
+	height: 180px;
+	border: 8px solid white;
+}
+
+img.vilao {
+	height: 180px;
+	border: 8px solid white;
+}
+
+#cabeçalho {
+	background-image: url('dccabeçalho2.jpg');
+	background-position: center;
+	border-bottom: 4px red double;
+	height: 150px;
+}
 
 /*formatação de menu*/
 
@@ -165,41 +211,4 @@ nav#menu a {
 
 nav#menu a:hover {
 	color: black;
-}
-
-ul.herois-img {
-	list-style: none;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-ul.viloes-img {
-	list-style: none;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-figcaption.legenda{
-	text-align: center;
-}
-
-img.heroi {
-	height: 180px;
-	border: 8px solid white;
-}
-
-img.vilao {
-	height: 180px;
-	border: 8px solid white;
-}
-
-#cabeçalho {
-	background-image: url('dccabeçalho2.jpg');
-	background-position: center;
-	border-bottom: 4px red double;
-	height: 150px;
 }
