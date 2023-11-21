@@ -2,28 +2,28 @@ let heroesList = document.querySelector('.herois-img');
 let heroesArray = [
   {
     name: 'Superman',
-    profile_photo: './imagens/herois-perfil/supermanpeq.jpg',
-    link: 'herois/Superman.html'
+    profile_photo: '../imagens/herois-perfil/supermanpeq.jpg',
+    link: '../herois/Superman.html'
   },
   {
     name: 'Mulher-Maravilha',
-    profile_photo: './imagens/herois-perfil/mulher maravilhapeq.jpg',
-    link: 'herois/Mulher-Maravilha.html'
+    profile_photo: '../imagens/herois-perfil/mulher maravilhapeq.jpg',
+    link: '../herois/Mulher-Maravilha.html'
   },
   {
     name: 'Batman',
-    profile_photo: './imagens/herois-perfil/batmanpeq.jpg',
-    link: 'herois/Batman.html'
+    profile_photo: '../imagens/herois-perfil/batmanpeq.jpg',
+    link: '../herois/Batman.html'
   },
   {
     name: 'Flash',
-    profile_photo: './imagens/herois-perfil/flashpeq.jpg',
-    link: 'herois/Flash.html'
+    profile_photo: '../imagens/herois-perfil/flashpeq.jpg',
+    link: '../herois/Flash.html'
   },
   {
     name: 'Aquaman',
-    profile_photo: './imagens/herois-perfil/aquamanpeq.jpg',
-    link: 'herois/Aquaman.html'
+    profile_photo: '../imagens/herois-perfil/aquamanpeq.jpg',
+    link: '../herois/Aquaman.html'
   }
 ]
 
