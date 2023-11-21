@@ -171,13 +171,28 @@ ul.herois-img {
 	list-style: none;
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+ul.viloes-img {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 figcaption.legenda{
 	text-align: center;
 }
 
-img.herois {
+img.heroi {
+	height: 180px;
+	border: 8px solid white;
+}
+
+img.vilao {
 	height: 180px;
 	border: 8px solid white;
 }

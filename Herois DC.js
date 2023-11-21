@@ -33,7 +33,7 @@ const loadHeroesList = () => {
       `<li>
         <figure>
           <a href="${hero.link}">
-            <img src="${hero.profile_photo}" class="herois">
+            <img src="${hero.profile_photo}" class="heroi">
           </a> 
           <figcaption class="legenda">${hero.name}</figcaption>
         </figure>
